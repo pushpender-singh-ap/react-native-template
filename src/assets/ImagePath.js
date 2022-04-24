@@ -1,3 +1,3 @@
 export default {
-    ilogo: require('./Logo/logo.png'),
+    ilogo: require('./Image/Logo/logo.png'),
 }

@@ -59,13 +59,17 @@ It is important to remember that if you do this, you will have to **install and 
 This template follows a very simple project structure:
 
 - `src`: It is the main place where you store all the code for your application.
-  - `assets`: Asset folder to store all images, vectors, etc.
+  - `assets`: Asset folder to store all fonts, images, vectors, etc.
+    - `Fonts`: Store all your fonts here.
+    - `Image`: Store all images, vectors, etc.
+    - `ImagePath.js`: This file contains the paths to all images.
   - `components`: Folder to store any common component that you use through your app (such as a generic button)
   - `constants`: Folder to store any kind of constant that you have.
   - `localization`: Folder to store the languages files.
   - `routes`: Folder to store the navigators.
   - `redux`: Folder that contains all your application redux.
     - `actions`: This folder contains all actions that can be dispatched to redux.
+    - `controllers`: The api collection and network request handlers are contained in this folder.
     - `reducers`: This folder should have all your reducers, and expose the combined result using its `rootReducer.js`
     - `selectors`: Folder to store your selectors for each reducer.
     - `store`: Folder to put all redux middlewares and the store.
@@ -75,6 +79,7 @@ This template follows a very simple project structure:
       - `Screen.styles.js`
   - `storage`: Folder that contains the application storage logic.
   - `theme`: Folder to store all the styling concerns related to the application theme.
+    - `Fonts.js`: This file contains the paths to all Fonts.
   - `App.js`: Main component that starts your whole app.
   - `index.js`: Entry point of your application as per React-Native standards.
 
