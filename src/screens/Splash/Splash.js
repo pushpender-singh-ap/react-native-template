@@ -5,11 +5,14 @@ import {
     StyleSheet
 } from "react-native";
 
+import AntDesign from 'react-native-vector-icons/AntDesign';
+
 import { Fonts } from "@/theme/Fonts";
 
 const Splash = () => {
     return (
         <View style={styles.container}>
+            <AntDesign name="forward" size={24} color="black" />
             <Text style={{
                 fontFamily: Fonts.Roboto900,
                 fontSize: 24

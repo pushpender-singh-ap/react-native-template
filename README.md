@@ -2,6 +2,8 @@
 
 A strong foundation for react-native applications is the goal of this project. It provides a clear and organized structure, core dependencies, and boilerplate to get the development process started.
 
+[![Dependencies check with forcefully](https://github.com/pushpender-singh-ap/react-native-template/actions/workflows/dependencies.yml/badge.svg)](https://github.com/pushpender-singh-ap/react-native-template/actions/workflows/dependencies.yml)
+
 ## Prerequisites
 
 - [Node.js > 16](https://nodejs.org) and npm (Recommended: Use [nvm](https://github.com/nvm-sh/nvm))
