@@ -1,0 +1,13 @@
+name: Dependencies check with forcefully
+on: [push, pull_requests]
+
+jobs:
+
+    automations:
+        name: Dependencies check with forcefully
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Install Dependencies with forcefully
+              run: |
+                  npm install --force
