@@ -26,6 +26,7 @@
     "start:metro": "npx react-native start",
     "clean": "watchman watch-del-all && rm -rf package-lock.json && rm -rf node_modules && cd ios && rm -rf Podfile.lock && rm -rf Pods && cd .. && npm install && cd ios && pod install && cd ..",
     "clean:android": "cd android && ./gradlew clean && cd ..",
+    "clean:ios": "watchman watch-del-all && cd ios && rm -rf Podfile.lock && rm -rf Pods && pod install && cd ..",
     "test": "jest",
     "lint": "eslint ."
   },
