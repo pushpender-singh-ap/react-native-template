@@ -5,10 +5,15 @@ import {
     StyleSheet
 } from "react-native";
 
+import { Fonts } from "@/theme/Fonts";
+
 const Splash = () => {
     return (
         <View style={styles.container}>
-            <Text>Splash</Text>
+            <Text style={{
+                fontFamily: Fonts.Roboto900,
+                fontSize: 24
+            }}>Splash</Text>
         </View>
     )
 }
