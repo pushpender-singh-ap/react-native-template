@@ -1,5 +1,5 @@
 name: Dependencies check with forcefully
-on: [push, pull_requests]
+on: [push]
 
 jobs:
 
